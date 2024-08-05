@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --clr-white: #fff;
+    --clr-red: #ff0505;
+    --clr-darkblue: rgb(46, 46, 188);
+    --clr-darkwhite: #464646;
+    --clr-orange: #ffa500;
+    --clr-darkorang: #ce9326;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    background:linear-gradient(rgba(90, 90, 43, 0.4), rgba(33, 33, 43, 0.9)),
+     url(/images/closed_Cyber.jpeg) no-repeat center/cover;
+    height: 120vh;
+}
+/* #header_Animate{
+    background: var(--clr-darkwhite);
+    display: grid;
+  place-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+#header_Animate span{
+    text-align: center;
+    position: relative;
+    left: 47%;
+}
+.loader {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 32px 0 #fff, -32px 0 #fff;
+  position: relative;
+  animation: flash 0.5s ease-out infinite alternate;
+} */
+
+/* @keyframes flash {
+  0% {
+    background-color: #FFF2;
+    box-shadow: 32px 0 #FFF2, -32px 0 #FFF;
+  }
+  50% {
+    background-color: #FFF;
+    box-shadow: 32px 0 #FFF2, -32px 0 #FFF2;
+  }
+  100% {
+    background-color: #FFF2;
+    box-shadow: 32px 0 #FFF, -32px 0 #FFF2;
+  }
+} */
+.homeHeader, #userName{
+    color: var(--clr-white);
+    margin: 25px 0;
+
+}
+      
+.home{
+    margin-bottom: 15px;
+}
+.instructions{
+    background-color: var(--clr-white);
+    border-radius: 10px;
+     box-shadow: 0 0 20px rgba(91, 87, 87, 0.5);
+    padding: 15px;
+    line-height: 2;
+}
+.instructions ul li{
+    padding: 10px;
+}
+#user{
+    border: 2px solid var(--clr-darkwhite);
+    outline: none;
+    border-radius: 5px;
+}
+.homeHeader{
+    text-align: center;
+}
+#userName{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.startQuizButton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startButton{
+    background: var(--clr-orange);
+    border-radius: 10px;
+    height: 45px;
+    border: none;
+    width: 100px;
+    border: 2px solid var(--clr-white);
+}
+
+.startButton a{
+    color: var(--clr-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+.startButton:hover{
+    transform: translateX(10px);
+    transition: .7s;
+}
+
+/* media querry section */
+@media  (min-width: 1px) and (max-width: 700px) {
+    body{
+        height: auto;
+    }
+}
