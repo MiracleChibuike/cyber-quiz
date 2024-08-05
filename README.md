@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the **Cyber Security Quiz App**! This web application is designed to test and improve your knowledge of cybersecurity. Whether you're a beginner looking to learn the basics or an expert wanting to test your knowledge, this app has something for everyone.
+Welcome to the **Cyber Security Quiz Website**! This website is designed to test and improve your knowledge of cybersecurity. Whether you're a beginner looking to learn the basics or an expert wanting to test your knowledge, this site has something for everyone.
 
 ## Features
 
@@ -25,10 +25,10 @@ Welcome to the **Cyber Security Quiz App**! This web application is designed to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cyber-security-quiz-app.git
+   git clone https://github.com/MiracleChibuike/cyber-quiz.git
 
 
 Developed by and managed by Miracle Chbuike 
-- [Onyia Miracle](https://onyiamiracleportfolio.netlify.app/)
+- [Onyia Miracle Chibuike](https://onyiamiracleportfolio.netlify.app/)
 
   
