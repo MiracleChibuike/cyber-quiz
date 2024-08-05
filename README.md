@@ -28,7 +28,7 @@ Welcome to the **Cyber Security Quiz Website**! This website is designed to test
    git clone https://github.com/MiracleChibuike/cyber-quiz.git
 
 
-Developed by and managed by Miracle Chbuike 
+Developed and managed by Miracle Chbuike 
 - [Onyia Miracle Chibuike](https://onyiamiracleportfolio.netlify.app/)
 
   
